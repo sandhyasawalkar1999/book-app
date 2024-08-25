@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid black;
+    display: flex;
+    border-radius: 10px;
+    /* padding: 10px; */
+    margin: 20px 40px;
+    justify-content:space-between;
+    text-align: center;
+    
+}
+.logo{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 10rem;
+    margin-left: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.mode{
+    /* border: 2px solid black; */
+    width: 4.5rem;
+    height: 2.5rem;
+    border-radius: 18px;
+    padding: 2px;
+    background: linear-gradient(90deg in oklab, rgb(218, 51, 233), rgb(198, 90, 202),rgb(235, 158, 238));
+    margin-right: 20px;
+}
+.ball{
+    /* border: 1px solid black; */
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px; 
+    background-color: rgb(65, 65, 244);   
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    font-size: 15px;
+}
+.signIn{
+    display: flex;
+    margin: 20px;
+}
+main{
+    display: flex;
+    width: 98vw;
+    height: 95vh;
+    border: 1px solid black;
+
+}
+/* main div{
+    border: 2px solid black;
+
+} */
+/* .leftside{
+    border: 2px solid black;
+    width: 25vw;
+} */
+.catagory{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin: 20px 70px;
+    max-height: 60vh;
+    width: 30vw;
+    padding: 20px;
+    border: 2px solid black;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}   
+.catagory a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    font-size: 18px;
+}
+.catagory a:hover{
+    color: blue;
+    font-size: 22px;
+}
+.bestSeller{
+    display: flex;
+    border: 2px solid black;
+}
+
